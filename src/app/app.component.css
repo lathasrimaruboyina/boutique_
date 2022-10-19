@@ -1,0 +1,7 @@
+.cred button{margin: 0 5px;}
+a{text-transform: capitalize;
+color: white;}
+.nav-item:hover{background-color:cornflowerblue ;}
+ul li{list-style-type: none;}
+ul{margin-left: 10px;}
+p{margin-left: 10px; color: red;}

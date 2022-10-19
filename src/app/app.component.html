@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-pink">
+  <div class="container">
+    <a class="navbar-brand" routerLink="">Boutique</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/categories">categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/collections">collections</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/track-order">Track Order</a>
+        </li>
+      </ul>
+      <form class="d-flex cred">
+        <button class="btn btn-warning" routerLink="/our-stores" type="button">Our Stores</button>
+        <button class="btn btn-warning" routerLink="/appointment" type="button">Book Appointment</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+<footer>  
+  <div class="row">
+<div class="col bg-light">
+  <p>Social Media</p>
+  <ul>
+    <li><a>Facebook</a></li>
+    <li><a>Email</a></li>
+    <li><a>Instagram</a></li>
+    <li><a>Twitter</a></li>
+  </ul>
+</div>
+<div class="col bg-light">
+  <p>Services</p>
+  <ul>
+    <li><a>Book Appointment</a></li>
+    <li><a>Stores</a></li>
+    <li><a>Collections</a></li>
+    <li><a>Track Order</a></li>
+  </ul>
+</div>
+<div class="col bg-light">
+  <p>Our Stores</p>
+  <ul>
+    <li><a>Machilipatnam</a></li>
+    <li><a>Vijayawada</a></li>
+    <li><a>Gudivada</a></li>
+    <li><a>Bhimavaram</a></li>
+  </ul>
+</div>
+</div>
+<div class="row">
+<div class="container-fluid bg-secondary">
+<p class="text-center text-white">Copyright 2020</p>
+</div>
+</div>
+</footer>
